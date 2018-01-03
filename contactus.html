@@ -60,6 +60,74 @@
             </div>
         </div>
 
+        <form>
+            <div class="form-group row">
+                <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" name="lastname" placeholder="Last Name" id="lastname">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="telnum" class="col-12 col-md-2 col-form-label">
+                    Contect Tel.
+                </label>
+                <div class="col-5 col-sm-4 col-md-3">
+                    <div class="input-group">
+                        <div class="input-group-addon">(</div>
+                            <input type="tel" name="areacode" class="form-control" placeholder="Area Code">
+                        <div class="input-group-addon">)</div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-7 col-sm-6 col-md-7">
+                    <input type="tel" name="telnum" class="form-control" placeholder="Tel. number" id="telnum">
+                    
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-10">
+                    <input type="email" name="email" class="form-control" placeholder="Email" id="email">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-check col-md-6 offset-md-2">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="approve" value="">
+                        <strong>May we contact you?</strong>
+                    </label>   
+                </div>
+                <div class="col-md-3 offset-1">
+                    <select class="form-control">
+                        <option>Tel.</option>
+                        <option>Email</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" rows="12" id="feedback" name="feedback"></textarea>                    
+                </div> 
+            </div>
+            <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                </div>
+            </div>
+        </form>
+
         <div class="row row-content">
            <div class="col-12">
               <h3>Location Information</h3>
