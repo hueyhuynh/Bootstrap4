@@ -13,9 +13,18 @@ $(document).ready(function(){
                 }
                 
             });
+
+            $("#reserveButton").click(function(){
+                $("#reserveModal").modal('toggle');
+            });
+
+            $("#loginButton").click(function(){
+                $("#loginModal").modal('toggle');
+            });
+
             $('h3,h2').each(function () {
-            $(this).nextAll('p').addClass("hidden-xs-down");
-        });
+                $(this).nextAll('p').addClass("hidden-xs-down");
+            });
 
             
         });
